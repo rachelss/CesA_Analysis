@@ -1,8 +1,8 @@
-#CesA Analysis
+# CesA Analysis
 
 This repository contains an R script for creating a tree figure from outputs of RAxML analysis of CesA genes from multiple species of mosses.
 
-##Data
+## Data
 
 RAxML outputs are contained within the directory raxml_outputs. The output file
 containing bipartitions and branch labels should be used in the R script.
