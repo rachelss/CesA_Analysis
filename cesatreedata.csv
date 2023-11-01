@@ -1,99 +1,53 @@
-"","parent","node","branch.length","label","bootstrap","species","CesA","X"
-"1",51,1,0.00109250575884342,"Penium_pm001908g0030",NA,"Penium margaritaceum","",NA
-"2",52,2,0.0299888797308155,"Penium_pm001158g0050",NA,"Penium margaritaceum","",NA
-"3",55,3,0.00250844870871908,"AnthocerosagrBONN_evm.model.Sc2ySwM_228.2986",NA,"Anthoceros agrestis","",NA
-"4",55,4,0.015436793967752,"Anthocerospun_evm.model.utg000043l.1525",NA,"Anthoceros punctatus","",NA
-"5",54,5,0.0107538555123988,"AnthocerosANG012329_locus=scaffold76_len3303",NA,"Anthoceros angustus","",NA
-"6",60,6,0.0124624952896809,"S.fallax_v1.1|Sphfalx16G018300.1_CDS",NA,"Sphagnum fallax","",NA
-"7",60,7,0.00909478659937208,"S.magellanicum_v1.1|Sphmag16G006100.1_CDS",NA,"Sphagnum magellanicum","",NA
-"8",62,8,0.011101987168046,"S.magellanicum_v1.1|Sphmag17G023300.1_CDS",NA,"Sphagnum magellanicum","",NA
-"9",62,9,0.00819419994827504,"S.fallax_v1.1|Sphfalx17G024100.1_CDS",NA,"Sphagnum fallax","",NA
-"10",63,10,0.00871353275057706,"S.magellanicum_v1.1|Sphmag19G038600.1_CDS",NA,"Sphagnum magellanicum","",NA
-"11",63,11,0.00609141611744752,"S.fallax_v1.1|Sphfalx19G037000.1_CDS",NA,"Sphagnum fallax","",NA
-"12",67,12,0.0505486784030193,"Foant_03732-RA__mRNA__locus=150007_6113_14162_+",NA,"Fontanalis antipyretica","",NA
-"13",68,13,0.0155854833020264,"Hyp_curivifolium_jg25231.t1",NA,"Hypnum curvifolium","",NA
-"14",68,14,0.0163958842983852,"Eseductrix_jg16709.t1",NA,"Entodon seductrix","",NA
-"15",69,15,0.155280233638258,"PpCESA1",NA,"Physcomitrium patens","CESA1",NA
-"16",70,16,0.000700370012681676,"C.purpureus_R40_v1.1|CepurR40.10G098100.1_CDS",NA,"Ceratodon purpureus R40","",NA
-"17",70,17,0.000210250863688296,"C.purpureus_GG1_v1.1|CepurGG1.10G096400.1_CDS",NA,"Ceratodon purpureus GG1","",NA
-"18",72,18,0.000608529040521027,"C.purpureus_R40_v1.1|CepurR40.7G025400.1_CDS",NA,"Ceratodon purpureus R40","",NA
-"19",72,19,1.00000050002909e-06,"C.purpureus_GG1_v1.1|CepurGG1.7G024500.1_CDS",NA,"Ceratodon purpureus GG1","",NA
-"20",75,20,0.0212755238284524,"PpCESA4",NA,"Physcomitrium patens","CESA4",NA
-"21",75,21,0.0473395159688654,"PpCESA10",NA,"Physcomitrium patens","CESA10",NA
-"22",76,22,0.00080398688157505,"PpCESA7",NA,"Physcomitrium patens","CESA7",NA
-"23",76,23,0.00335316929071771,"PpCESA6",NA,"Physcomitrium patens","CESA6",NA
-"24",78,24,0.000594473216647232,"C.purpureus_R40_v1.1|CepurR40.1G280300.1_CDS",NA,"Ceratodon purpureus R40","N",NA
-"25",78,25,1.00000050002909e-06,"C.purpureus_GG1_v1.1|CepurGG1.1G272300.1_CDS",NA,"Ceratodon purpureus GG1","",NA
-"26",79,26,0.0187247050023403,"Eseductrix_jg12779.t1",NA,"Entodon seductrix","",NA
-"27",80,27,0.015994468939568,"Hyp_curivifolium_jg10340.t1",NA,"Hypnum curvifolium","",NA
-"28",80,28,0.0708378956062045,"Foant_02392-RA__mRNA__locus=178895_29904_36808_+",NA,"Fontanalis antipyretica","",NA
-"29",82,29,0.0103346574330849,"S.fallax_v1.1|Sphfalx13G080300.1_CDS",NA,"Sphagnum fallax","",NA
-"30",82,30,0.00783841665744941,"S.magellanicum_v1.1|Sphmag13G079500.1_CDS",NA,"Sphagnum magellanicum","",NA
-"31",84,31,0.00841857628776856,"S.fallax_v1.1|Sphfalx09G034600.1_CDS",NA,"Sphagnum fallax","",NA
-"32",84,32,0.0145284841855065,"S.magellanicum_v1.1|Sphmag09G077200.1_CDS",NA,"Sphagnum magellanicum","",NA
-"33",85,33,0.00825344159051257,"S.fallax_v1.1|Sphfalx06G044300.1_CDS",NA,"Sphagnum fallax","",NA
-"34",85,34,0.0114628335378419,"S.magellanicum_v1.1|Sphmag06G057300.1_CDS",NA,"Sphagnum magellanicum","",NA
-"35",88,35,0.0765712725982173,"PpCESA8",NA,"Physcomitrium patens","CESA8",NA
-"36",88,36,0.0894249411898978,"PpCESA3",NA,"Physcomitrium patens","CESA3",NA
-"37",90,37,0.00177450853464764,"C.purpureus_R40_v1.1|CepurR40.1G280400.1_CDS",NA,"Ceratodon purpureus R40","",NA
-"38",90,38,0.00256900640124033,"C.purpureus_GG1_v1.1|CepurGG1.1G272400.1_CDS",NA,"Ceratodon purpureus GG1","",NA
-"39",91,39,0.0398059186260778,"Foant_17125-RA__mRNA__locus=166359_1651_6450_-",NA,"Fontanalis antipyretica","",NA
-"40",92,40,0.0252371175570789,"Hyp_curivifolium_jg10337.t1",NA,"Hypnum curvifolium","",NA
-"41",92,41,0.0241662785481646,"Eseductrix_jg12777.t1",NA,"Entodon seductrix","",NA
-"42",94,42,0.0262663890638355,"Foant_15610-RA__mRNA__locus=181721_14463_20617_+",NA,"Fontanalis antipyretica","",NA
-"43",95,43,0.0251324222551011,"Hyp_curivifolium_jg27744.t1",NA,"Hypnum curvifolium","",NA
-"44",95,44,0.0146648392172047,"Eseductrix_jg6929.t1",NA,"Entodon seductrix","",NA
-"45",96,45,0.156218261543894,"PpCESA5",NA,"Physcomitrium patens","CESA5",NA
-"46",97,46,0.00245277102623031,"C.purpureus_R40_v1.1|CepurR40.6G164100.1_CDS",NA,"Ceratodon purpureus R40","",NA
-"47",97,47,1.64125151842435e-05,"C.purpureus_GG1_v1.1|CepurGG1.6G157300.1_CDS",NA,"Ceratodon purpureus GG1","",NA
-"48",98,48,0.462408433460772,"M.polymorpha_v3.1|Mapoly0015s0055.1_CDS",NA,"Marchantia polymorpha","",NA
-"49",98,49,0.221733397568788,"M.polymorpha_v3.1|Mapoly0076s0014.1_CDS",NA,"Marchantia polymorpha","",NA
-"50",51,50,0.00272476015469813,"Penium_pm009480g0010",NA,"Penium margaritaceum","",NA
-"51",51,51,NA,NA,NA,NA,NA,NA
-"52",51,52,0.0307783918963665,NA,86,NA,NA,NA
-"53",52,53,1.08374362778787,NA,100,NA,NA,NA
-"54",53,54,0.150772970393119,NA,100,NA,NA,NA
-"55",54,55,0.0240153758472457,NA,100,NA,NA,NA
-"56",53,56,0.0652682362614704,NA,57,NA,NA,NA
-"57",56,57,0.0371128732164156,NA,62,NA,NA,NA
-"58",57,58,0.0451871377856355,NA,57,NA,NA,NA
-"59",58,59,0.151161525949223,NA,100,NA,NA,NA
-"60",59,60,0.0691021255499015,NA,100,NA,NA,NA
-"61",59,61,0.00962414610292498,NA,38,NA,NA,NA
-"62",61,62,0.0802606714579396,NA,100,NA,NA,NA
-"63",61,63,0.0548886409436957,NA,100,NA,NA,NA
-"64",58,64,0.0348299931472857,NA,50,NA,NA,NA
-"65",64,65,0.109834387082304,NA,98,NA,NA,NA
-"66",65,66,0.117121838209311,NA,100,NA,NA,NA
-"67",66,67,0.047454502570424,NA,100,NA,NA,NA
-"68",67,68,0.00731215626654286,NA,92,NA,NA,NA
-"69",66,69,0.0206976252697899,NA,80,NA,NA,NA
-"70",69,70,0.0739707573547482,NA,100,NA,NA,NA
-"71",65,71,0.108725742943482,NA,100,NA,NA,NA
-"72",71,72,0.0729071174053223,NA,100,NA,NA,NA
-"73",71,73,0.0289686066469283,NA,66,NA,NA,NA
-"74",73,74,0.0687109234191652,NA,100,NA,NA,NA
-"75",74,75,0.0759030096628291,NA,100,NA,NA,NA
-"76",74,76,0.100536627059301,NA,100,NA,NA,NA
-"77",73,77,0.0539503819404396,NA,100,NA,NA,NA
-"78",77,78,0.0996940830649652,NA,100,NA,NA,NA
-"79",77,79,0.0948882254038074,NA,100,NA,NA,NA
-"80",79,80,0.00602084219947789,NA,48,NA,NA,NA
-"81",64,81,0.0281648817920877,NA,44,NA,NA,NA
-"82",81,82,0.250847112703026,NA,100,NA,NA,NA
-"83",81,83,0.213831464877468,NA,100,NA,NA,NA
-"84",83,84,0.147127814884708,NA,100,NA,NA,NA
-"85",83,85,0.109365475599141,NA,100,NA,NA,NA
-"86",57,86,0.118273760279598,NA,100,NA,NA,NA
-"87",86,87,0.138255460848741,NA,100,NA,NA,NA
-"88",87,88,0.0539798273319117,NA,100,NA,NA,NA
-"89",87,89,0.0330926032766846,NA,92,NA,NA,NA
-"90",89,90,0.130276028862315,NA,100,NA,NA,NA
-"91",89,91,0.142943211327199,NA,100,NA,NA,NA
-"92",91,92,0.0131735260843367,NA,84,NA,NA,NA
-"93",86,93,0.0877600920960723,NA,100,NA,NA,NA
-"94",93,94,0.140105433690386,NA,100,NA,NA,NA
-"95",94,95,0.030398571567015,NA,100,NA,NA,NA
-"96",93,96,0.0335337364055514,NA,76,NA,NA,NA
-"97",96,97,0.0929424863505657,NA,100,NA,NA,NA
-"98",56,98,0.0357221043287052,NA,42,NA,NA,NA
+"","parent","node","branch.length","label","species","CesA","X"
+"1",51,1,0.00109250575884342,"Penium_pm001908g0030","Penium margaritaceum","",NA
+"2",51,2,0.0299888797308155,"Penium_pm001158g0050","Penium margaritaceum","",NA
+"3",52,3,0.00250844870871908,"AnthocerosagrBONN_evm.model.Sc2ySwM_228.2986","Anthoceros agrestis","",NA
+"4",52,4,0.015436793967752,"Anthocerospun_evm.model.utg000043l.1525","Anthoceros punctatus","",NA
+"5",52,5,0.0107538555123988,"AnthocerosANG012329_locus=scaffold76_len3303","Anthoceros angustus","",NA
+"6",52,6,0.0124624952896809,"S.fallax_v1.1|Sphfalx16G018300.1_CDS","Sphagnum fallax","",NA
+"7",52,7,0.00909478659937209,"S.magellanicum_v1.1|Sphmag16G006100.1_CDS","Sphagnum magellanicum","",NA
+"8",52,8,0.011101987168046,"S.magellanicum_v1.1|Sphmag17G023300.1_CDS","Sphagnum magellanicum","",NA
+"9",52,9,0.00819419994827504,"S.fallax_v1.1|Sphfalx17G024100.1_CDS","Sphagnum fallax","",NA
+"10",52,10,0.00871353275057706,"S.magellanicum_v1.1|Sphmag19G038600.1_CDS","Sphagnum magellanicum","",NA
+"11",52,11,0.00609141611744752,"S.fallax_v1.1|Sphfalx19G037000.1_CDS","Sphagnum fallax","",NA
+"12",52,12,0.0505486784030193,"Foant_03732-RA__mRNA__locus=150007_6113_14162_+","Fontanalis antipyretica","",NA
+"13",52,13,0.0155854833020264,"Hyp_curivifolium_jg25231.t1","Hypnum curvifolium","",NA
+"14",52,14,0.0163958842983852,"Eseductrix_jg16709.t1","Entodon seductrix","",NA
+"15",52,15,0.155280233638258,"PpCESA1","Physcomitrium patens","CESA1",NA
+"16",52,16,0.000700370012681676,"C.purpureus_R40_v1.1|CepurR40.10G098100.1_CDS","Ceratodon purpureus R40","",NA
+"17",52,17,0.000210250863688296,"C.purpureus_GG1_v1.1|CepurGG1.10G096400.1_CDS","Ceratodon purpureus GG1","",NA
+"18",52,18,0.000608529040521027,"C.purpureus_R40_v1.1|CepurR40.7G025400.1_CDS","Ceratodon purpureus R40","",NA
+"19",52,19,1.00000050002909e-06,"C.purpureus_GG1_v1.1|CepurGG1.7G024500.1_CDS","Ceratodon purpureus GG1","",NA
+"20",52,20,0.0212755238284524,"PpCESA4","Physcomitrium patens","CESA4",NA
+"21",52,21,0.0473395159688654,"PpCESA10","Physcomitrium patens","CESA10",NA
+"22",52,22,0.00080398688157505,"PpCESA7","Physcomitrium patens","CESA7",NA
+"23",52,23,0.00335316929071771,"PpCESA6","Physcomitrium patens","CESA6",NA
+"24",52,24,0.000594473216647232,"C.purpureus_R40_v1.1|CepurR40.1G280300.1_CDS","Ceratodon purpureus R40","N",NA
+"25",52,25,1.00000050002909e-06,"C.purpureus_GG1_v1.1|CepurGG1.1G272300.1_CDS","Ceratodon purpureus GG1","",NA
+"26",52,26,0.0187247050023403,"Eseductrix_jg12779.t1","Entodon seductrix","",NA
+"27",52,27,0.015994468939568,"Hyp_curivifolium_jg10340.t1","Hypnum curvifolium","",NA
+"28",52,28,0.0708378956062045,"Foant_02392-RA__mRNA__locus=178895_29904_36808_+","Fontanalis antipyretica","",NA
+"29",52,29,0.0103346574330849,"S.fallax_v1.1|Sphfalx13G080300.1_CDS","Sphagnum fallax","",NA
+"30",52,30,0.00783841665744941,"S.magellanicum_v1.1|Sphmag13G079500.1_CDS","Sphagnum magellanicum","",NA
+"31",52,31,0.00841857628776856,"S.fallax_v1.1|Sphfalx09G034600.1_CDS","Sphagnum fallax","",NA
+"32",52,32,0.0145284841855065,"S.magellanicum_v1.1|Sphmag09G077200.1_CDS","Sphagnum magellanicum","",NA
+"33",52,33,0.00825344159051257,"S.fallax_v1.1|Sphfalx06G044300.1_CDS","Sphagnum fallax","",NA
+"34",52,34,0.0114628335378419,"S.magellanicum_v1.1|Sphmag06G057300.1_CDS","Sphagnum magellanicum","",NA
+"35",52,35,0.0765712725982173,"PpCESA8","Physcomitrium patens","CESA8",NA
+"36",52,36,0.0894249411898978,"PpCESA3","Physcomitrium patens","CESA3",NA
+"37",52,37,0.00177450853464764,"C.purpureus_R40_v1.1|CepurR40.1G280400.1_CDS","Ceratodon purpureus R40","",NA
+"38",52,38,0.00256900640124033,"C.purpureus_GG1_v1.1|CepurGG1.1G272400.1_CDS","Ceratodon purpureus GG1","",NA
+"39",52,39,0.0398059186260778,"Foant_17125-RA__mRNA__locus=166359_1651_6450_-","Fontanalis antipyretica","",NA
+"40",52,40,0.0252371175570789,"Hyp_curivifolium_jg10337.t1","Hypnum curvifolium","",NA
+"41",52,41,0.0241662785481646,"Eseductrix_jg12777.t1","Entodon seductrix","",NA
+"42",52,42,0.0262663890638355,"Foant_15610-RA__mRNA__locus=181721_14463_20617_+","Fontanalis antipyretica","",NA
+"43",52,43,0.0251324222551011,"Hyp_curivifolium_jg27744.t1","Hypnum curvifolium","",NA
+"44",52,44,0.0146648392172047,"Eseductrix_jg6929.t1","Entodon seductrix","",NA
+"45",52,45,0.156218261543894,"PpCESA5","Physcomitrium patens","CESA5",NA
+"46",52,46,0.00245277102623031,"C.purpureus_R40_v1.1|CepurR40.6G164100.1_CDS","Ceratodon purpureus R40","",NA
+"47",52,47,1.64125151842435e-05,"C.purpureus_GG1_v1.1|CepurGG1.6G157300.1_CDS","Ceratodon purpureus GG1","",NA
+"48",52,48,0.462408433460772,"M.polymorpha_v3.1|Mapoly0015s0055.1_CDS","Marchantia polymorpha","",NA
+"49",52,49,0.221733397568788,"M.polymorpha_v3.1|Mapoly0076s0014.1_CDS","Marchantia polymorpha","",NA
+"50",51,50,0.00272476015469813,"Penium_pm009480g0010","Penium margaritaceum","",NA
+"51",51,51,NA,NA,NA,NA,NA
+"52",51,52,1.08374362778787,NA,NA,NA,NA
