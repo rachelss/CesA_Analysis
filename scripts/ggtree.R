@@ -57,7 +57,7 @@ dev.off()
 # Analysis for full tree
 setwd("/Users/corinna/Documents/Work/Schwartz_Lab/Plant_paralog_evolution/Bryophyta/CESA/CESA_trees_all_samples")
 
-data <- read.table("tree_metadata.txt", header=T)
+data <- read.table("tree_metadata3.txt", header=T)
 col <- c("Andreaeales" = "royalblue4", "Bartramiales" = "mediumturquoise", "Bryales" = "darkcyan", "Buxbaumiales" = "orange", "Dicranales" = "pink1", "Diphysciales" = "slateblue", "Encalyptales" = "plum4", "Grimmiales" = "palevioletred", "Orthotrichales" = "paleturquoise4", "Polytrichales" = "tomato", "Pottiales" = "hotpink", "Rhizogoniales" = "paleturquoise3", "Scouleriales" = "deeppink3", "Tetraphidales" = "gold", "Timmiales" = "salmon", "Anthocerotales" = "red2", "Pseudoditrichales" = "cornflowerblue", "Hypnales" = "lightseagreen", "Marchantiales" = "mediumpurple", "Desmidiales" = "royalblue3", "Funariales" = "plum", "Sphagnales" = "violetred4", "Takakiales" = "darkgoldenrod1")
 
 tree <- read.tree("RAxML_bipartitions.CESA_exon.tre")
