@@ -1,57 +1,57 @@
-Sample	Genus
-Anthoceros_agrestis	Anthoceros
-Anthoceros_angustus	Anthoceros
-Anthoceros_punctatus	Anthoceros
-Ceratodon_purpureus_GG1_1	Ceratodon
-Ceratodon_purpureus_GG1_2	Ceratodon
-Ceratodon_purpureus_GG1_3	Ceratodon
-Ceratodon_purpureus_GG1_4	Ceratodon
-Ceratodon_purpureus_GG1_5	Ceratodon
-Ceratodon_purpureus_R40_1	Ceratodon
-Ceratodon_purpureus_R40_2	Ceratodon
-Ceratodon_purpureus_R40_3	Ceratodon
-Ceratodon_purpureus_R40_4	Ceratodon
-Ceratodon_purpureus_R40_5	Ceratodon
-Entodon_seductrix_1	Entodon
-Entodon_seductrix_2	Entodon
-Entodon_seductrix_3	Entodon
-Entodon_seductrix_4	Entodon
-Entodon_seductrix_5	Entodon
-Entodon_seductrix_6	Entodon
-Entodon_seductrix_7	Entodon
-Entodon_seductrix_8	Entodon
-Fontinalis_antipyretica_1	Fontinalis
-Fontinalis_antipyretica_2	Fontinalis
-Fontinalis_antipyretica_3	Fontinalis
-Hypnum_curvifolium_1	Hypnum
-Hypnum_curvifolium_11	Hypnum
-Hypnum_curvifolium_2	Hypnum
-Hypnum_curvifolium_3	Hypnum
-Hypnum_curvifolium_4	Hypnum
-Hypnum_curvifolium_6	Hypnum
-Hypnum_curvifolium_9	Hypnum
-Marchantia_polymorpha_1	Marchantia
-Marchantia_polymorpha_2	Marchantia
-Penium_margaritaceum_1	Penium
-Penium_margaritaceum_2	Penium
-Physcomitrium_patens_1	Physcomitrium
-Physcomitrium_patens_2	Physcomitrium
-Physcomitrium_patens_3	Physcomitrium
-Physcomitrium_patens_4	Physcomitrium
-Physcomitrium_patens_5	Physcomitrium
-Physcomitrium_patens_6	Physcomitrium
-Physcomitrium_patens_7	Physcomitrium
-Sphagnum_fallax_1	Sphagnum
-Sphagnum_fallax_2	Sphagnum
-Sphagnum_fallax_3	Sphagnum
-Sphagnum_fallax_4	Sphagnum
-Sphagnum_fallax_5	Sphagnum
-Sphagnum_fallax_6	Sphagnum
-Sphagnum_magellanicum_1	Sphagnum
-Sphagnum_magellanicum_2	Sphagnum
-Sphagnum_magellanicum_3	Sphagnum
-Sphagnum_magellanicum_4	Sphagnum
-Sphagnum_magellanicum_5	Sphagnum
-Sphagnum_magellanicum_6	Sphagnum
-Takakia_lepidozioides_1	Takakia
-Takakia_lepidozioides_2	Takakia
+Sample	Genus	Species	Info
+Anthoceros_agrestis	Anthoceros	agrestis	n.a.
+Anthoceros_angustus	Anthoceros	angustus	n.a.
+Anthoceros_punctatus	Anthoceros	punctatus	n.a.
+Ceratodon_purpureus_GG1_1	Ceratodon	purpureus	GG1
+Ceratodon_purpureus_GG1_2	Ceratodon	purpureus	GG1
+Ceratodon_purpureus_GG1_3	Ceratodon	purpureus	GG1
+Ceratodon_purpureus_GG1_4	Ceratodon	purpureus	GG1
+Ceratodon_purpureus_GG1_5	Ceratodon	purpureus	GG1
+Ceratodon_purpureus_R40_1	Ceratodon	purpureus	R40
+Ceratodon_purpureus_R40_2	Ceratodon	purpureus	R40
+Ceratodon_purpureus_R40_3	Ceratodon	purpureus	R40
+Ceratodon_purpureus_R40_4	Ceratodon	purpureus	R40
+Ceratodon_purpureus_R40_5	Ceratodon	purpureus	R40
+Entodon_seductrix_1	Entodon	seductrix	n.a.
+Entodon_seductrix_2	Entodon	seductrix	n.a.
+Entodon_seductrix_3	Entodon	seductrix	n.a.
+Entodon_seductrix_4	Entodon	seductrix	n.a.
+Entodon_seductrix_5	Entodon	seductrix	n.a.
+Entodon_seductrix_6	Entodon	seductrix	n.a.
+Entodon_seductrix_7	Entodon	seductrix	n.a.
+Entodon_seductrix_8	Entodon	seductrix	n.a.
+Fontinalis_antipyretica_1	Fontinalis	antipyretica	n.a.
+Fontinalis_antipyretica_2	Fontinalis	antipyretica	n.a.
+Fontinalis_antipyretica_3	Fontinalis	antipyretica	n.a.
+Hypnum_curvifolium_1	Hypnum	curvifolium	n.a.
+Hypnum_curvifolium_11	Hypnum	curvifolium	n.a.
+Hypnum_curvifolium_2	Hypnum	curvifolium	n.a.
+Hypnum_curvifolium_3	Hypnum	curvifolium	n.a.
+Hypnum_curvifolium_4	Hypnum	curvifolium	n.a.
+Hypnum_curvifolium_6	Hypnum	curvifolium	n.a.
+Hypnum_curvifolium_9	Hypnum	curvifolium	n.a.
+Marchantia_polymorpha_1	Marchantia	polymorpha	n.a.
+Marchantia_polymorpha_2	Marchantia	polymorpha	n.a.
+Penium_margaritaceum_1	Penium	margaritaceum	n.a.
+Penium_margaritaceum_2	Penium	margaritaceum	n.a.
+Physcomitrium_patens_1	Physcomitrium	patens	PpCESA6/7
+Physcomitrium_patens_2	Physcomitrium	patens	PpCESA3
+Physcomitrium_patens_3	Physcomitrium	patens	PpCESA8
+Physcomitrium_patens_4	Physcomitrium	patens	PpCESA5
+Physcomitrium_patens_5	Physcomitrium	patens	PpCESA10
+Physcomitrium_patens_6	Physcomitrium	patens	PpCESA1
+Physcomitrium_patens_7	Physcomitrium	patens	PpCESA4
+Sphagnum_fallax_1	Sphagnum	fallax	n.a.
+Sphagnum_fallax_2	Sphagnum	fallax	n.a.
+Sphagnum_fallax_3	Sphagnum	fallax	n.a.
+Sphagnum_fallax_4	Sphagnum	fallax	n.a.
+Sphagnum_fallax_5	Sphagnum	fallax	n.a.
+Sphagnum_fallax_6	Sphagnum	fallax	n.a.
+Sphagnum_magellanicum_1	Sphagnum	magellanicum	n.a.
+Sphagnum_magellanicum_2	Sphagnum	magellanicum	n.a.
+Sphagnum_magellanicum_3	Sphagnum	magellanicum	n.a.
+Sphagnum_magellanicum_4	Sphagnum	magellanicum	n.a.
+Sphagnum_magellanicum_5	Sphagnum	magellanicum	n.a.
+Sphagnum_magellanicum_6	Sphagnum	magellanicum	n.a.
+Takakia_lepidozioides_1	Takakia	lepidozioides	n.a.
+Takakia_lepidozioides_2	Takakia	lepidozioides	n.a.
