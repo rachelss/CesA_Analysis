@@ -21,9 +21,9 @@ t
 
 rooted_tree <- root(tree, node=109, resolve.root = TRUE, edgelabel=TRUE)
  
-pdf("RAxML_bipartitions.CESA_ref_exon.pdf", width=10, height=10)
+pdf("RAxML_bipartitions.CESA_ref_exon.pdf", width=12, height=10)
 t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=53) + geom_nodelab(geom="label", color="black", fill="whitesmoke", size=3, label.size=NA, nudge_x=-0.05)
-t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Genus)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Genus)) + scale_color_manual(values = col, name="Genus", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T)
+t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Genus)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Genus)) + scale_color_manual(values = col, name="Genus", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica") + geom_cladelab(node=94, label="CESA A", family="Helvetica", fontface="bold", offset=0.65) + geom_cladelab(node=74, label="CESA B", family="Helvetica", fontface="bold", offset=0.75)
 t2
 dev.off()
 
@@ -34,9 +34,9 @@ t
 
 rooted_tree <- root(tree, node=110, resolve.root = TRUE, edgelabel=TRUE)
  
-pdf("RAxML_bestTree.CESA_ref_exon.pdf", width=10, height=10)
+pdf("RAxML_bestTree.CESA_ref_exon.pdf", width=12, height=10)
 t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=53)
-t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Genus)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Genus)) + scale_color_manual(values = col, name="Genus", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T)
+t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Genus)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Genus)) + scale_color_manual(values = col, name="Genus", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica") + geom_cladelab(node=95, label="CESA A", family="Helvetica", fontface="bold", offset=0.65) + geom_cladelab(node=75, label="CESA B", family="Helvetica", fontface="bold", offset=0.75)
 t2
 dev.off()
 
@@ -53,9 +53,9 @@ t
 
 rooted_tree <- root(tree, node=200, resolve.root = TRUE, edgelabel=TRUE)
 
-pdf("RAxML_bipartitions.CESA_all_refs_exon.pdf", width=10, height=15)
+pdf("RAxML_bipartitions.CESA_all_refs_exon.pdf", width=15, height=15)
 t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=100) + geom_nodepoint(aes(subset = label > 75), size=3, shape=21, fill="darkgray", color="black")
-t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Genus)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Genus)) + scale_color_manual(values = col, name="Genus", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T)
+t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Genus)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Genus)) + scale_color_manual(values = col, name="Genus", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica") + geom_cladelab(node=168, label="CESA A", family="Helvetica", fontface="bold", offset=0.5) + geom_cladelab(node=114, label="CESA B", family="Helvetica", fontface="bold", offset=0.6)
 t2
 dev.off()
 
@@ -75,30 +75,30 @@ t
 
 rooted_tree <- root(tree, node=662, resolve.root = TRUE, edgelabel=TRUE)
  
-pdf("RAxML_bipartitions.CESA_exon.pdf", width=15, height=60)
+pdf("RAxML_bipartitions.CESA_exon.pdf", width=25, height=60)
 t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=480) + geom_nodelab(geom="label", color="black", fill="whitesmoke", size=3, label.size=NA, nudge_x=-0.05)
-t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T)
+t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica") + geom_cladelab(node=658, label="CESA A", family="Helvetica", fontface="bold", offset=0.2) + geom_cladelab(node=667, label="CESA B", family="Helvetica", fontface="bold", offset=0.25)
 t2
 dev.off()
 
 t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_nodepoint(aes(subset = label > 75), size=3, shape=21, fill="darkgray", color="black")
-t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T)
+t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica")
 
 MRCA(t2, "Sphagnum_compactum_4", "Sphagnum_fuscum_5")
-t3 <- t2 %>% collapse(node=835) + geom_point2(aes(subset=(node==835)), shape=18, size=5, color="violetred4")
+t3 <- t2 %>% collapse(node=835) + geom_point2(aes(subset=(node==835)), shape=18, size=5, color="violetred4") + geom_cladelabel(835, "Sphagnales", color="violetred4", family="Helvetica")
 MRCA(t3, "Leucodon_julaceus_4", "Brachythecium_rivulare_4")
-t4 <- t3 %>% collapse(node=683) + geom_point2(aes(subset=(node==683)), shape=18, size=5, color="lightseagreen")
+t4 <- t3 %>% collapse(node=683) + geom_point2(aes(subset=(node==683)), shape=18, size=5, color="lightseagreen") + geom_cladelabel(683, "Hypnales", color="lightseagreen", family="Helvetica")
 MRCA(t4, "Climacium_americanum_2", "Platyhypnidium_sp._2")
-t5 <- t4 %>% collapse(node=748) + geom_point2(aes(subset=(node==748)), shape=18, size=5, color="lightseagreen")
+t5 <- t4 %>% collapse(node=748) + geom_point2(aes(subset=(node==748)), shape=18, size=5, color="lightseagreen") + geom_cladelabel(748, "Hypnales", color="lightseagreen", family="Helvetica")
 MRCA(t5, "Eosphagnum_inretortum_6", "Sphagnum_divinum_3")
-t6 <- t5 %>% collapse(node=910) + geom_point2(aes(subset=(node==910)), shape=18, size=5, color="violetred4")
+t6 <- t5 %>% collapse(node=910) + geom_point2(aes(subset=(node==910)), shape=18, size=5, color="violetred4") + geom_cladelabel(910, "Sphagnales", color="violetred4", family="Helvetica")
 MRCA(t6, "Hygrohypnum_luridum_3", "Entodon_seductrix_4")
-t7 <- t6 %>% collapse(node=611) + geom_point2(aes(subset=(node==611)), shape=18, size=5, color="lightseagreen")
+t7 <- t6 %>% collapse(node=611) + geom_point2(aes(subset=(node==611)), shape=18, size=5, color="lightseagreen") + geom_cladelabel(611, "Hypnales", color="lightseagreen", family="Helvetica")
 MRCA(t7, "Fontinalis_antipyretica_2", "Campyliadelphus_chrysophyllus_2")
-t8 <- t7 %>% collapse(node=520) + geom_point2(aes(subset=(node==520)), shape=18, size=5, color="lightseagreen")
+t8 <- t7 %>% collapse(node=520) + geom_point2(aes(subset=(node==520)), shape=18, size=5, color="lightseagreen") + geom_cladelabel(520, "Hypnales", color="lightseagreen", family="Helvetica")
 
-pdf("RAxML_bipartitions.CESA_exon.collapsed.pdf", width=15, height=25)
-t8 + geom_treescale(x=0, y=160)
+pdf("RAxML_bipartitions.CESA_exon.collapsed.pdf", width=22, height=25)
+t8 + geom_treescale(x=0, y=160) + geom_cladelab(node=658, label="CESA A", family="Helvetica", fontface="bold", offset=0.23) + geom_cladelab(node=667, label="CESA B", family="Helvetica", fontface="bold", offset=0.28)
 dev.off()
 
 
@@ -109,28 +109,28 @@ t
 
 rooted_tree <- root(tree, node=501, resolve.root = TRUE, edgelabel=TRUE)
  
-pdf("RAxML_bestTree.CESA_exon.pdf", width=15, height=60)
+pdf("RAxML_bestTree.CESA_exon.pdf", width=25, height=60)
 t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=480)
-t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T)
+t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica") + geom_cladelab(node=497, label="CESA A", family="Helvetica", fontface="bold", offset=0.2) + geom_cladelab(node=506, label="CESA B", family="Helvetica", fontface="bold", offset=0.25)
 t2
 dev.off()
 
 t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5)
-t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T)
+t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica")
 
 MRCA(t2, "Sphagnum_compactum_4", "Sphagnum_fuscum_5")
-t3 <- t2 %>% collapse(node=674) + geom_point2(aes(subset=(node==674)), shape=18, size=5, color="violetred4")
+t3 <- t2 %>% collapse(node=674) + geom_point2(aes(subset=(node==674)), shape=18, size=5, color="violetred4") + geom_cladelabel(674, "Sphagnales", color="violetred4", family="Helvetica")
 MRCA(t3, "Leucodon_julaceus_4", "Brachythecium_rivulare_4")
-t4 <- t3 %>% collapse(node=522) + geom_point2(aes(subset=(node==522)), shape=18, size=5, color="lightseagreen")
+t4 <- t3 %>% collapse(node=522) + geom_point2(aes(subset=(node==522)), shape=18, size=5, color="lightseagreen") + geom_cladelabel(522, "Hypnales", color="lightseagreen", family="Helvetica")
 MRCA(t4, "Climacium_americanum_2", "Platyhypnidium_sp._2")
-t5 <- t4 %>% collapse(node=587) + geom_point2(aes(subset=(node==587)), shape=18, size=5, color="lightseagreen")
+t5 <- t4 %>% collapse(node=587) + geom_point2(aes(subset=(node==587)), shape=18, size=5, color="lightseagreen") + geom_cladelabel(587, "Hypnales", color="lightseagreen", family="Helvetica")
 MRCA(t5, "Eosphagnum_inretortum_6", "Sphagnum_divinum_3")
-t6 <- t5 %>% collapse(node=749) + geom_point2(aes(subset=(node==749)), shape=18, size=5, color="violetred4")
+t6 <- t5 %>% collapse(node=749) + geom_point2(aes(subset=(node==749)), shape=18, size=5, color="violetred4") + geom_cladelabel(749, "Sphagnales", color="violetred4", family="Helvetica")
 MRCA(t6, "Hygrohypnum_luridum_3", "Entodon_seductrix_4")
-t7 <- t6 %>% collapse(node=941) + geom_point2(aes(subset=(node==941)), shape=18, size=5, color="lightseagreen")
+t7 <- t6 %>% collapse(node=941) + geom_point2(aes(subset=(node==941)), shape=18, size=5, color="lightseagreen") + geom_cladelabel(941, "Hypnales", color="lightseagreen", family="Helvetica")
 MRCA(t7, "Fontinalis_antipyretica_2", "Campyliadelphus_chrysophyllus_2")
-t8 <- t7 %>% collapse(node=853) + geom_point2(aes(subset=(node==853)), shape=18, size=5, color="lightseagreen")
+t8 <- t7 %>% collapse(node=853) + geom_point2(aes(subset=(node==853)), shape=18, size=5, color="lightseagreen") + geom_cladelabel(853, "Hypnales", color="lightseagreen", family="Helvetica")
 
-pdf("RAxML_bestTree.CESA_exon.collapsed.pdf", width=15, height=25)
-t8 + geom_treescale(x=0, y=160)
+pdf("RAxML_bestTree.CESA_exon.collapsed.pdf", width=22, height=25)
+t8 + geom_treescale(x=0, y=160) + geom_cladelab(node=497, label="CESA A", family="Helvetica", fontface="bold", offset=0.23) + geom_cladelab(node=506, label="CESA B", family="Helvetica", fontface="bold", offset=0.28)
 dev.off()
