@@ -19,13 +19,19 @@ cp /data/schwartzlab/jezell_greenp/downloaded_data/Downloaded_Data/hypnum_curvif
 cp /data/schwartzlab/jezell_greenp/downloaded_data/Downloaded_Data/hypnum_curvifolium/CL100092064_L01_read_2.fastq.gz Hypnum_curvifolium_CL100092064_2.fastq.gz
 
 # files.list contains a list of species and SRA accessions to use for analysis
-for ACC in `cat files.list | perl -anle 'print $F[1]'`
+IFS=$'\n'
+
+for line in `cat files.list`
 do
+echo $line > acc.txt
+ACC=`cut -f2 acc.txt`
+SPEC=`cut -f1 acc.txt`
 prefetch --max-size 500G $ACC
 fasterq-dump --skip-technical --split-3 --threads ${SLURM_CPUS_ON_NODE} $ACC
 rm -r $ACC
 pigz -p ${SLURM_CPUS_ON_NODE} ${ACC}_1.fastq
 pigz -p ${SLURM_CPUS_ON_NODE} ${ACC}_2.fastq
+mv ${ACC}_1.fastq.gz ${SPEC}_${ACC}_1.fastq.gz
+mv ${ACC}_2.fastq.gz ${SPEC}_${ACC}_2.fastq.gz
 done
-
 
