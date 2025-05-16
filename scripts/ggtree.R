@@ -54,7 +54,7 @@ t
 rooted_tree <- root(tree, node=200, resolve.root = TRUE, edgelabel=TRUE)
 
 pdf("RAxML_bipartitions.CESA_all_refs_exon.pdf", width=15, height=15)
-t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=100) + geom_nodepoint(aes(subset = label > 75), size=3, shape=21, fill="darkgray", color="black")
+t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=100) + geom_nodepoint(aes(subset = as.numeric(label) > 75), size=3, shape=21, fill="darkgray", color="black")
 t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Genus)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Genus)) + scale_color_manual(values = col, name="Genus", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica") + geom_cladelab(node=168, label="CESA A", family="Helvetica", fontface="bold", offset=0.5) + geom_cladelab(node=114, label="CESA B", family="Helvetica", fontface="bold", offset=0.6)
 t2
 dev.off()
@@ -81,7 +81,7 @@ t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) +
 t2
 dev.off()
 
-t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_nodepoint(aes(subset = label > 75), size=3, shape=21, fill="darkgray", color="black")
+t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_nodepoint(aes(subset = as.numeric(label) > 75), size=3, shape=21, fill="darkgray", color="black")
 t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica")
 
 MRCA(t2, "Sphagnum_compactum_4", "Sphagnum_fuscum_5")
