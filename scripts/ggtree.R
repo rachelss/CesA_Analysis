@@ -22,7 +22,7 @@ t
 rooted_tree <- root(tree, node=109, resolve.root = TRUE, edgelabel=TRUE)
  
 pdf("RAxML_bipartitions.CESA_ref_exon.pdf", width=12, height=10)
-t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=53) + geom_nodelab(geom="label", color="black", fill="whitesmoke", size=3, label.size=NA, nudge_x=-0.05)
+t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=53) + geom_nodelab(aes(subset = !is.na(as.numeric(label))), geom="label", color="black", fill="whitesmoke", size=3, label.size=NA, nudge_x=-0.05)
 t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Genus)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Genus)) + scale_color_manual(values = col, name="Genus", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica") + geom_cladelab(node=94, label="CESA A", family="Helvetica", fontface="bold", offset=0.65) + geom_cladelab(node=74, label="CESA B", family="Helvetica", fontface="bold", offset=0.75)
 t2
 dev.off()
@@ -76,7 +76,7 @@ t
 rooted_tree <- root(tree, node=662, resolve.root = TRUE, edgelabel=TRUE)
  
 pdf("RAxML_bipartitions.CESA_exon.pdf", width=25, height=60)
-t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=480) + geom_nodelab(geom="label", color="black", fill="whitesmoke", size=3, label.size=NA, nudge_x=-0.05)
+t <- ggtree(rooted_tree, layout="rectangular", size=1) + xlim(0, 2.5) + geom_treescale(x=0, y=480) + geom_nodelab(aes(subset = !is.na(as.numeric(label))), geom="label", color="black", fill="whitesmoke", size=3, label.size=NA, nudge_x=-0.05)
 t2 <- t %<+% data2 + geom_tippoint(aes(color=factor(Order)), shape=19, size=3) + theme(legend.position = "none") + aes(color=factor(Order)) + scale_color_manual(values = col, name="Order", na.value="black") + geom_tiplab(aes(label=NewLab), align=FALSE, hjust=-.15, parse=T, family="Helvetica") + geom_cladelab(node=658, label="CESA A", family="Helvetica", fontface="bold", offset=0.2) + geom_cladelab(node=667, label="CESA B", family="Helvetica", fontface="bold", offset=0.25)
 t2
 dev.off()
