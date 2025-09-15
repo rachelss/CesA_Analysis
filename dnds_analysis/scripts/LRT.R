@@ -1,11 +1,11 @@
 # LRT comparing M0 (null model) and M1a (nearly neutral)
 
 lnL_M0 <- -59147.35
-lnL_M1a <- -58502.65
+lnL_M1 <- -58784.98
 
-LR <- -2* (lnL_M0 - lnL_M1a)
+LR <- -2* (lnL_M0 - lnL_M1)
 
-degrees_of_freedom <- 1
+degrees_of_freedom <- 93
 
 p_value <- pchisq(LR, df = degrees_of_freedom, lower.tail = FALSE)
 
