@@ -1,132 +1,131 @@
 Species	Order	SRA/CNGD accession	Data type	Assembler	# Genes	Comment
-Alleniella valentiniana	Hypnales	SRR17422315	WGS	Geneious	0	Not enough data
-Amblystegium serpens	Hypnales	SRR26398974	WGS	Geneious	0	Not enough data
 Andreaea regularis	Andreaeales	SRR22696218	WGS	Geneious	0	Not enough data
-Andreaea rupestris	Andreaeales	ERR2040947	RNAseq	rnaSPAdes	1	
-Anomodon rostratus	Hypnales	SRR2518087	RNAseq	rnaSPAdes	4	
+Andreaea rupestris	Andreaeales	ERR2040947	RNAseq	rnaSPAdes	2	
 Anthoceros agrestis	Anthocerotales	ERR3580402, ERR771108, ERR771109	WGS	Geneious	1	
 Anthoceros angustus	Anthocerotales	ERR9662965	RNAseq	rnaSPAdes	1	
 Anthoceros punctatus	Anthocerotales	ERR1278954	WGS	Geneious	1	
-Antitrichia curtipendula	Hypnales	SRR2518092	RNAseq	rnaSPAdes	8	Possibly detained intron in CESA contigs, removed for analyses
-Arvernella microclada	Hypnales	SRR26398973	WGS	Geneious	0	Not enough data
-Atrichum angustatum	Polytrichales	ERR2040969	RNAseq	rnaSPAdes	4	
-Aulacomnium heterostichum	Rhizogoniales	ERR2040950	RNAseq	rnaSPAdes	4	
-Aulacomnium palustre	Rhizogoniales	SRR2518059	RNAseq	rnaSPAdes	4	
-Aulacomnium turgidum	Rhizogoniales	SRR22904711, SRR22904712, SRR22904713	RNAseq	rnaSPAdes	2	
-Brachythecium rivulare	Hypnales	SRR12006106, SRR12006107	RNAseq	rnaSPAdes	4	
-Bryoandersonia illecebra	Hypnales	SRR2518072	RNAseq	rnaSPAdes	5	Possibly detained intron in CESA contigs, removed for analyses
+Philonotis fontana	Bartramiales	ERR2040948	RNAseq	rnaSPAdes	3*	One contig excluded due to short length. Might represent missing fragment of other paralog
 Bryum argenteum	Bryales	SRR1763242	RNAseq	rnaSPAdes	3	
-Buxbaumia aphylla	Buxbaumiales	ERR2040954	RNAseq	rnaSPAdes	1	
-Callicladium haldanianum	Hypnales	SRR2518077	RNAseq	rnaSPAdes	6	
-Callicladium imponens	Hypnales	SRR2513252	RNAseq	rnaSPAdes	4	
-Calliergon cordifolium	Hypnales	ERR2040964	RNAseq	rnaSPAdes	4	
-Calliergon giganteum	Hypnales	SRR2518083	RNAseq	rnaSPAdes	5	
-Calohypnum plumiforme	Hypnales	SRR14748365	RNAseq	rnaSPAdes	4	Possibly detained intron in CESA contigs, removed for analyses
-Campyliadelphus chrysophyllus	Hypnales	SRR21785615, SRR26398951, SRR26398962	WGS	Geneious	2	
-Campylium protensum	Hypnales	SRR21785614	WGS	Geneious	0	Not enough data
-Campylium stellatum	Hypnales	SRR26398944, SRR26398945, SRR26398946	WGS	Geneious	2	
-Campylophyllum halleri	Hypnales	SRR26398943	WGS	Geneious	0	Not enough data
-Ceratodon purpureus GG1	Pseudoditrichales	SRR1592642, SRR1592643, SRR3928188, SRR3928189, SRR3928190, SRR3928191, SRR3928192	WGS	Geneious	5	
-Ceratodon purpureus R40	Pseudoditrichales	SRR4125803, SRR4125804	WGS	Geneious	5	
-Climacium americanum	Hypnales	SRR2497426	RNAseq	rnaSPAdes	4	
-Climacium dendroides	Hypnales	ERR2040965	RNAseq	rnaSPAdes	2	
-Cratoneuron curvicaule	Hypnales	SRR21785610	WGS	Geneious	0	Not enough data
-Cratoneuron filicinum	Hypnales	SRR26398970	WGS	Geneious	2	
-Cratoneuropsis relaxa	Hypnales	SRR21785607	WGS	Geneious	0	Not enough data
-Dicranum scoparium	Dicranales	SRR11912463	RNAseq	rnaSPAdes	3	Possibly detained intron in CESA contigs, removed for analyses
-Diphyscium foliosum	Diphysciales	ERR2040958	RNAseq	rnaSPAdes	3	
-Drepanocladus aduncus	Hypnales	SRR26398966, SRR26398967, SRR26398968	WGS	Geneious	0	Not enough data
-Drepanocladus polygamus	Hypnales	SRR26398964, SRR26398965	WGS	Geneious	0	Not enough data
-Drepanocladus sordidus	Hypnales	SRR26398963	WGS	Geneious	0	Not enough data
-Drepanocladus turgescens	Hypnales	SRR21785606	WGS	Geneious	0	Not enough data
-Encalypta streptocarpa	Encalyptales	ERR2040959	RNAseq	rnaSPAdes	2	
-Entodon seductrix	Hypnales	CL100124498	WGS	Geneious	8	
-Eosphagnum inretortum	Sphagnales	ERR2324899	RNAseq	rnaSPAdes	5	Possibly detained intron in CESA contigs, removed for analyses
-Eurhynchiadelphus eustegia	Hypnales	SRR15179248	WGS	Geneious	0	Not enough data
-Flatbergium novo-caledoniae	Sphagnales	ERR2324894	RNAseq	rnaSPAdes	6	Possibly detained intron in CESA contigs, removed for analyses
-Flatbergium sericeum	Sphagnales	ERR2324904	RNAseq	rnaSPAdes	5	
-Flowersia sinensis	Bartramiales	SRR4017226	RNAseq	rnaSPAdes	2	Possibly detained intron in CESA contigs, removed for analyses
-Fontinalis antipyretica	Hypnales	ERR2040966	RNAseq	rnaSPAdes	3	
-Forsstroemia sp.	Hypnales	SRR2518099	RNAseq	rnaSPAdes	6	Possibly detained intron in CESA contigs, removed for analyses
-Frisvollia varia	Grimmiales	ERR2040952	RNAseq	rnaSPAdes	5	
-Funaria hygrometrica	Funariales	ERR3958995	RNAseq	rnaSPAdes	8	Possibly detained intron in CESA contigs, removed for analyses
-Hygrohypnella ochracea	Hypnales	SRR26398959, SRR26398960, SRR26398961	WGS	Geneious	0	Not enough data
-Hygrohypnum luridum	Hypnales	SRR21785605, SRR26398953, SRR26398955, SRR26398956, SRR26398957, SRR26398958	WGS	SPAdes	3	
-Hylocomium splendens	Hypnales	SRR2518082	RNAseq	rnaSPAdes	5	
-Hypnum curvifolium 	Hypnales	CL100092064	WGS	SPAdes	7	
-Kandaea elodes	Hypnales	SRR21785604	WGS	Geneious	0	Not enough data
-Kindbergia praelonga	Hypnales	SRR2518076	RNAseq	rnaSPAdes	6	
-Leptodictyum riparium	Hypnales	SRR21785603	WGS	Geneious	0	Not enough data
-Leucobryum albidum	Dicranales	ERR2040956	RNAseq	rnaSPAdes	4	
-Leucobryum glaucum	Dicranales	ERR2040957	RNAseq	rnaSPAdes	2	
-Leucodon julaceus	Hypnales	ERR2040963	RNAseq	rnaSPAdes	4	
-Loeskeobryum brevirostre	Hypnales	SRR2518080	RNAseq	rnaSPAdes	13	
-Marchantia polymorpha	Marchantiales	SRR396657, SRR396658	WGS	Geneious	2	
-Meteoridium sp.	Hypnales	SRR2518094	RNAseq	rnaSPAdes	7	
-Neckera douglasii	Hypnales	ERR2040967	RNAseq	rnaSPAdes	4	
-Niphotrichum canescens	Grimmiales	SRR14533271	RNAseq	rnaSPAdes	5	
-Niphotrichum elongatum	Grimmiales	ERR2040951	RNAseq	rnaSPAdes	3	
-Palustriella falcata	Hypnales	SRR21785613, SRR26398952	WGS	SPAdes	2	
-Penium margaritaceum	Desmidiales	SRR10442432	WGS	Geneious	2	
-Philonotis fontana	Bartramiales	ERR2040948	RNAseq	rnaSPAdes	3	
-Physcomitrellopsis africana	Funariales	SRR26586950	RNAseq	rnaSPAdes	9	
-Physcomitrium patens	Funariales	SRR3099021	WGS	Geneious	7	
-Physcomitrium pyriforme	Funariales	SRR10075982	RNAseq	rnaSPAdes	6	
-Pilotrichella sp.	Hypnales	SRR2518090	RNAseq	rnaSPAdes	4	
 Plagiomnium insigne	Bryales	ERR2040949	RNAseq	rnaSPAdes	2	
 Plagiomnium rostratum	Bryales	SRR28576469	WGS	Geneious	0	Not enough data
 Plagiomnium succulentum	Bryales	SRR28576968	WGS	Geneious	0	Not enough data
 Plagiomnium vesicatum	Bryales	SRR28577168	WGS	Geneious	0	Not enough data
-Plagiothecium sp.	Hypnales	SRR2518105	RNAseq	rnaSPAdes	8	
+Pohlia nutans	Bryales	SRR494108	RNAseq	rnaSPAdes	6*	One additional contig exlcuded due to short length
+Rhodobryum laxelimbatum	Bryales	SRR14332107	WGS	Geneious	3*	Three additional contigs excluded due to short length
+Buxbaumia aphylla	Buxbaumiales	ERR2040954	RNAseq	rnaSPAdes	4	
+Penium margaritaceum	Desmidiales	SRR10442432	WGS	Geneious	3	
+Dicranum scoparium	Dicranales	SRR11912463	RNAseq	rnaSPAdes	3	Identical second contig assembled for one paralog and two CESA-like proteins not included
+Leucobryum albidum	Dicranales	ERR2040956	RNAseq	rnaSPAdes	6	
+Leucobryum glaucum	Dicranales	ERR2040957	RNAseq	rnaSPAdes	4	
+Diphyscium foliosum	Diphysciales	ERR2040958	RNAseq	rnaSPAdes	5	
+Encalypta streptocarpa	Encalyptales	ERR2040959	RNAseq	rnaSPAdes	2	
+Funaria hygrometrica	Funariales	ERR3958995	RNAseq	rnaSPAdes	10	Identical second contig assembled for two paralogs (except that a non-coding sequence is contained). Either pseudogenes, misassembly or detained introns? Removed from analysis. Number of paralogs possibly overestimated as fragments might belong to the same gene
+Physcomitrellopsis africana	Funariales	SRR26586950	RNAseq	rnaSPAdes	9	One additional contig was identical to another paralog. Removed from analysis
+Physcomitrium patens	Funariales	SRR3099021	WGS	Geneious	7	
+Physcomitrium pyriforme	Funariales	SRR10075982	RNAseq	rnaSPAdes	8	
+Frisvollia varia	Grimmiales	ERR2040952	RNAseq	rnaSPAdes	5	
+Niphotrichum canescens	Grimmiales	SRR14533271	RNAseq	rnaSPAdes	6	
+Niphotrichum elongatum	Grimmiales	ERR2040951	RNAseq	rnaSPAdes	3	
+Alleniella valentiniana	Hypnales	SRR17422315	WGS	Geneious	0	Not enough data
+Amblystegium serpens	Hypnales	SRR26398974	WGS	Geneious	0	Not enough data
+Anomodon rostratus	Hypnales	SRR2518087	RNAseq	rnaSPAdes	4*	One more paralog but excluded due to short length
+Antitrichia curtipendula	Hypnales	SRR2518092	RNAseq	rnaSPAdes	9	
+Arvernella microclada	Hypnales	SRR26398973	WGS	Geneious	0	Not enough data
+Brachythecium rivulare	Hypnales	SRR12006106, SRR12006107	RNAseq	rnaSPAdes	4	One CESA-like protein not included
+Bryoandersonia illecebra	Hypnales	SRR2518072	RNAseq	rnaSPAdes	5	Identical second contig assembled for two paralogs (except that a non-coding sequence is contained). Either pseudogenes, misassembly or detained introns? Removed from analysis
+Callicladium haldanianum	Hypnales	SRR2518077	RNAseq	rnaSPAdes	6	
+Callicladium imponens	Hypnales	SRR2513252	RNAseq	rnaSPAdes	4	
+Calliergon cordifolium	Hypnales	ERR2040964	RNAseq	rnaSPAdes	5	
+Calliergon giganteum	Hypnales	SRR2518083	RNAseq	rnaSPAdes	5*	One more paralog but excluded due to short length
+Calohypnum plumiforme	Hypnales	SRR14748365	RNAseq	rnaSPAdes	4	Two CESA-like proteins not included
+Campyliadelphus chrysophyllus	Hypnales	SRR21785615, SRR26398951, SRR26398962	WGS	Geneious	3*	Three additional paralogs present but some contigs were difficult to align and consisted largely of intronic sequences. One excluded due to short length.
+Campylium protensum	Hypnales	SRR21785614	WGS	Geneious	0	Not enough data
+Campylium stellatum	Hypnales	SRR26398944, SRR26398945, SRR26398946	WGS	Geneious	3*	Three additional paralogs present but some contigs were difficult to align and consisted largely of intronic sequences. Two contigs excluded due to short length
+Campylophyllum halleri	Hypnales	SRR26398943	WGS	Geneious	0	Not enough data
+Climacium americanum	Hypnales	SRR2497426	RNAseq	rnaSPAdes	4	One CESA-like protein not included
+Climacium dendroides	Hypnales	ERR2040965	RNAseq	rnaSPAdes	2	
+Cratoneuron curvicaule	Hypnales	SRR21785610	WGS	Geneious	0	Not enough data
+Cratoneuron filicinum	Hypnales	SRR26398970	WGS	Geneious	2*	Two additional paralogs present but one contig was difficult to align and consisted largely of intronic sequences. One contig removed due to short length
+Cratoneuropsis relaxa	Hypnales	SRR21785607	WGS	Geneious	0	Not enough data
+Drepanocladus aduncus	Hypnales	SRR26398966, SRR26398967, SRR26398968	WGS	Geneious	0	Not enough data
+Drepanocladus polygamus	Hypnales	SRR26398964, SRR26398965	WGS	Geneious	0	Not enough data
+Drepanocladus sordidus	Hypnales	SRR26398963	WGS	Geneious	0	Not enough data
+Drepanocladus turgescens	Hypnales	SRR21785606	WGS	Geneious	0	Not enough data
+Entodon seductrix	Hypnales	CL100124498	WGS	Geneious	8	
+Eurhynchiadelphus eustegia	Hypnales	SRR15179248	WGS	Geneious	0	Not enough data
+Fontinalis antipyretica	Hypnales	ERR2040966	RNAseq	rnaSPAdes	3	
+Forsstroemia sp.	Hypnales	SRR2518099	RNAseq	rnaSPAdes	6	Identical second contig assembled for one paralog (except that a non-coding sequence is contained). Either pseudogene, misassembly or detained intron? Two CESA-like proteins not included in analysis
+Hygrohypnella ochracea	Hypnales	SRR26398959, SRR26398960, SRR26398961	WGS	Geneious	0	Not enough data
+Hygrohypnum luridum	Hypnales	SRR21785605, SRR26398953, SRR26398955, SRR26398956, SRR26398957, SRR26398958	WGS	SPAdes	4*	One more paralog excluded due to short length
+Hylocomium splendens	Hypnales	SRR2518082	RNAseq	rnaSPAdes	5*	Maybe one additional paralog present but impossible to tell since the short alignable fraction is identical to another paralog. Removed from analysis
+Hypnum curvifolium 	Hypnales	CL100092064	WGS	SPAdes	7	
+Kandaea elodes	Hypnales	SRR21785604	WGS	Geneious	0	Not enough data
+Kindbergia praelonga	Hypnales	SRR2518076	RNAseq	rnaSPAdes	7	One CESA-like protein not included
+Leptodictyum riparium	Hypnales	SRR21785603	WGS	Geneious	0	Not enough data
+Leucodon julaceus	Hypnales	ERR2040963	RNAseq	rnaSPAdes	4	
+Loeskeobryum brevirostre	Hypnales	SRR2518080	RNAseq	rnaSPAdes	13*	Two additional contigs assembled. One is identical to another paralog, the other likely represents the end piece of one of two other paralogs. Excluded due to short length
+Meteoridium sp.	Hypnales	SRR2518094	RNAseq	rnaSPAdes	7	One CESA-like protein not included
+Neckera douglasii	Hypnales	ERR2040967	RNAseq	rnaSPAdes	4	
+Palustriella falcata	Hypnales	SRR21785613, SRR26398952	WGS	SPAdes	3*	Two other contigs excluded due to short length. Might represent missing fragments of other recovered paralogs
+Pilotrichella sp.	Hypnales	SRR2518090	RNAseq	rnaSPAdes	4	
+Plagiothecium sp.	Hypnales	SRR2518105	RNAseq	rnaSPAdes	11	
 Planicladium nitidulum	Hypnales	SRR15264989	WGS	Geneious	0	Not enough data
-Platyhypnidium sp.	Hypnales	SRR2518103	RNAseq	rnaSPAdes	9	
+Platyhypnidium sp.	Hypnales	SRR2518103	RNAseq	rnaSPAdes	9	Maybe one more paralog but contig contains misassemblies and is very short. Excluded from analysis. Likely not real
 Platyhypnum bestii	Hypnales	SRR26398950	WGS	Geneious	0	Not enough data
 Platyhypnum smithii	Hypnales	SRR21785612	WGS	Geneious	0	Not enough data
-Pogonatum aloides	Polytrichales	SRR3737504	RNAseq	rnaSPAdes	8	
-Pohlia nutans	Bryales	SRR494108	RNAseq	rnaSPAdes	6	
-Pseudotaxiphyllum elegans	Hypnales	ERR2040962	RNAseq	rnaSPAdes	4	
-Pulvigera lyellii	Orthotrichales	ERR2040968	RNAseq	rnaSPAdes	3	
-Rhodobryum laxelimbatum	Bryales	SRR14332107	WGS	Geneious	3	
-Rhytidiadelphus sp.	Hypnales	SRR2518073	RNAseq	rnaSPAdes	4	Possibly detained intron in CESA contigs, removed for analyses
-Rhytidiopsis robusta	Hypnales	SRR2518096	RNAseq	rnaSPAdes	4	
+Pseudotaxiphyllum elegans	Hypnales	ERR2040962	RNAseq	rnaSPAdes	4*	One contig excluded due to short length. Might represent missing fragment of other paralog
+Rhytidiadelphus sp.	Hypnales	SRR2518073	RNAseq	rnaSPAdes	4	One additional contig was identical to another paralog. One CESA-like protein. Removed from analysis
+Rhytidiopsis robusta	Hypnales	SRR2518096	RNAseq	rnaSPAdes	4	One additional contig was identical to another paralog. One CESA-like protein. Removed from analysis
 Sanionia uncinata	Hypnales	SRR21369222, SRR21369242	RNAseq	rnaSPAdes	5	
 Sciaromiopsis sinensis	Hypnales	SRR15179250	WGS	Geneious	0	Not enough data
-Scopelophila cataractae	Pottiales	SRR17281053	RNAseq	rnaSPAdes	4	Possibly detained intron in CESA contigs, removed for analyses
-Scorpidium cossonii	Hypnales	SRR26398948, SRR26398949	WGS	Geneious	1	
-Scouleria aquatica	Scouleriales	ERR2040953	RNAseq	rnaSPAdes	4	
-Sphagnum affine	Sphagnales	SRR18184152	WGS	SPAdes	6	
-Sphagnum austinii	Sphagnales	SRR18184155	WGS	SPAdes	6	
-Sphagnum capillifolium	Sphagnales	ERR4778777, ERR4778814, ERR4778886	WGS	SPAdes	6	
-Sphagnum compactum	Sphagnales	ERR4778615, ERR4780970, ERR4781616	WGS	SPAdes	6	
-Sphagnum cribrosum	Sphagnales	ERR2324889	RNAseq	rnaSPAdes	6	
-Sphagnum divinum	Sphagnales	SRR18184161	WGS	SPAdes	6	
+Scorpidium cossonii	Hypnales	SRR26398948, SRR26398949	WGS	Geneious	1*	Two additional contigs excluded due to short length
+Stereodon subimponens	Hypnales	ERR2040961	RNAseq	rnaSPAdes	4	Maybe only three paralogs but difficult to tell since contigs are fragmented
+Thelia asprella	Hypnales	SRR2518088	RNAseq	rnaSPAdes	8	One CESA-like protein not included
+Thuidium delicatulum	Hypnales	SRR2499574	RNAseq	rnaSPAdes	4	
+Tomentypnum nitens	Hypnales	SRR26398947	WGS	Geneious	0	Not enough data
+Vittia pachyloma	Hypnales	SRR21785611	WGS	Geneious	0	Not enough data
+Marchantia polymorpha	Marchantiales	SRR396657, SRR396658	WGS	Geneious	2	
+Pulvigera lyellii	Orthotrichales	ERR2040968	RNAseq	rnaSPAdes	3	
+Atrichum angustatum	Polytrichales	ERR2040969	RNAseq	rnaSPAdes	5	
+Pogonatum aloides	Polytrichales	SRR3737504	RNAseq	rnaSPAdes	8	
+Scopelophila cataractae	Pottiales	SRR17281053	RNAseq	rnaSPAdes	6	One additional contig was identical to another paralog. One CESA-like protein. Removed from analysis
+Syntrichia caninervis	Pottiales	SRR13777019	RNAseq	rnaSPAdes	4	Likely two pseudogenes present or misassemblies. Removed from analysis. CESA-like proteins not included. Two contigs manually assembled into one larger scaffold
+Syntrichia princeps	Pottiales	ERR2040970	RNAseq	rnaSPAdes	7	
+Syntrichia ruralis	Pottiales	SRR27955585	WGS	SPAdes	5	Maybe additional paralogs present but contigs contained misassemblies or might be pseudogenes. CESA-like proteins removed
+Vinealobryum vineale	Pottiales	SRR24966267	RNAseq	rnaSPAdes	14	Eight CESA-like genes removed, one likely pseudogene removed
+Ceratodon purpureus GG1	Pseudoditrichales	SRR1592642, SRR1592643, SRR3928188, SRR3928189, SRR3928190, SRR3928191, SRR3928192	WGS	Geneious	5	
+Ceratodon purpureus R40	Pseudoditrichales	SRR4125803, SRR4125804	WGS	Geneious	5	
+Aulacomnium heterostichum	Rhizogoniales	ERR2040950	RNAseq	rnaSPAdes	4	
+Aulacomnium palustre	Rhizogoniales	SRR2518059	RNAseq	rnaSPAdes	4	Two CESA-like proteins not included
+Aulacomnium turgidum	Rhizogoniales	SRR22904711, SRR22904712, SRR22904713	RNAseq	rnaSPAdes	2	
+Scouleria aquatica	Scouleriales	ERR2040953	RNAseq	rnaSPAdes	6	
+Eosphagnum inretortum	Sphagnales	ERR2324899	RNAseq	rnaSPAdes	5	Identical second contig assembled for one paralog (except that a non-coding sequence is contained). Either pseudogene, misassembly or detained intron? Removed from analysis
+Flatbergium novo-caledoniae	Sphagnales	ERR2324894	RNAseq	rnaSPAdes	6	Identical second contig assembled for two paralogs (except that a non-coding sequence is contained). Either pseudogenes, misassembly or detained introns? Removed from analysis
+Flatbergium sericeum	Sphagnales	ERR2324904	RNAseq	rnaSPAdes	5	
+Sphagnum affine	Sphagnales	SRR18184152	WGS	SPAdes	6	Three CESA-like proteins not included, 5 other fragments with possible matches to CESA paralogs but contigs contain misassemblies or might be pseudogenes? No viable translation possible, therefore excluded from analysis
+Sphagnum austinii	Sphagnales	SRR18184155	WGS	SPAdes	6	Three CESA-like proteins not included, 3 other fragments with possible matches to CESA paralogs but contigs contain misassemblies or might be pseudogenes? No viable translation possible, therefore excluded from analysis
+Sphagnum capillifolium	Sphagnales	ERR4778777, ERR4778814, ERR4778886	WGS	SPAdes	7*	One additional contig excluded due to short length. Might represent missing fragment of another paralog
+Sphagnum compactum	Sphagnales	ERR4778615, ERR4780970, ERR4781616	WGS	SPAdes	6*	One additional contig with match to CESA gene but contig contains misassemblies or represents a pseudogene. No functional translation possible. One contig excluded due to short length
+Sphagnum cribrosum	Sphagnales	ERR2324889	RNAseq	rnaSPAdes	6	Identical second contig assembled for two paralogs (except that a non-coding sequence is contained). Either pseudogenes, misassembly or detained introns? Removed from analysis
+Sphagnum divinum	Sphagnales	SRR18184161	WGS	SPAdes	6	Four CESA-like proteins not included, possibly seventh gene detected but contig contains misassemblies
 Sphagnum fallax	Sphagnales	SRR4136564, SRR4136566	WGS	Geneious	6	
-Sphagnum fimbriatum	Sphagnales	ERR4778602, ERR4778784, ERR4778855	WGS	SPAdes	6	Possibly 7th pseudogene or contamination
-Sphagnum flexuosum	Sphagnales	ERR4778558, ERR4778564, ERR4778826	WGS	SPAdes	6	
-Sphagnum fuscum	Sphagnales	ERR4778574, ERR4778864, ERR4780958	WGS	Geneious	6	
+Sphagnum fimbriatum	Sphagnales	ERR4778602, ERR4778784, ERR4778855	WGS	SPAdes	6	Possibly 7th pseudogene or misassemblies. Contig cannot be translated into functional gene
+Sphagnum flexuosum	Sphagnales	ERR4778558, ERR4778564, ERR4778826	WGS	SPAdes	6*	Poorly alignable contigs excluded. Three short contigs exlcuded. In some cases might represent missing fragments of other paralogs
+Sphagnum fuscum	Sphagnales	ERR4778574, ERR4778864, ERR4780958	WGS	Geneious	6*	Two short contigs excluded. One might represent missing fragment of other paralog
 Sphagnum junghuhnianum	Sphagnales	SRR15858706	WGS	Geneious	0	Not enough data
-Sphagnum lindbergii	Sphagnales	ERR4778812, ERR4780987, ERR4785889	WGS	Geneious	6	
+Sphagnum lindbergii	Sphagnales	ERR4778812, ERR4780987, ERR4785889	WGS	Geneious	7	
 Sphagnum magellanicum	Sphagnales	SRR4996476, SRR4996477	WGS	Geneious	6	
 Sphagnum multifibrosum	Sphagnales	SRR15966551	WGS	Geneious	0	Not enough data
-Sphagnum palustre	Sphagnales	ERR2040971	RNAseq	rnaSPAdes	6	
+Sphagnum palustre	Sphagnales	ERR2040971	RNAseq	rnaSPAdes	8*	Poorly alignable contigs excluded. One contig excluded due to short length. Might represent missing fragment of other paralog. Possibly only seven genes
 Sphagnum perichaetiale	Sphagnales	SRR18184153	WGS	SPAdes	6	
-Sphagnum platyphyllum	Sphagnales	ERR4778580, ERR4778597, ERR4778871	WGS	SPAdes	6	
-Sphagnum portoricense	Sphagnales	SRR18427469	WGS	SPAdes	6	
-Sphagnum recurvum	Sphagnales	ERR2040972	RNAseq	rnaSPAdes	6	
-Sphagnum riparium	Sphagnales	ERR4778610, ERR4778780, ERR4778850	WGS	SPAdes	6	
-Sphagnum squarrosum	Sphagnales	ERR4778611	WGS	SPAdes	6	
-Sphagnum subnitens	Sphagnales	ERR4778894, ERR4780988, ERR4781005	WGS	SPAdes	6	
-Sphagnum subsecundum	Sphagnales	ERR477405	RNAseq	rnaSPAdes	10	Possibly detained intron in CESA contigs, removed for analyses
-Sphagnum tenellum	Sphagnales	ERR4778604, ERR4778834, ERR4785892	WGS	SPAdes	6	
-Stereodon subimponens	Hypnales	ERR2040961	RNAseq	rnaSPAdes	3	
-Syntrichia caninervis	Pottiales	SRR13777019	RNAseq	rnaSPAdes	4	Possibly detained intron in CESA contigs, removed for analyses
-Syntrichia princeps	Pottiales	ERR2040970	RNAseq	rnaSPAdes	4	
-Syntrichia ruralis	Pottiales	SRR27955585	WGS	SPAdes	5	
+Sphagnum platyphyllum	Sphagnales	ERR4778580, ERR4778597, ERR4778871	WGS	SPAdes	6*	One contig excluded due to short length. Might represent missing fragment of other paralog
+Sphagnum portoricense	Sphagnales	SRR18427469	WGS	SPAdes	6	CESA-like proteins excluded
+Sphagnum recurvum	Sphagnales	ERR2040972	RNAseq	rnaSPAdes	6*	One contig excluded due to short length. Might represent missing fragment of other paralog
+Sphagnum riparium	Sphagnales	ERR4778610, ERR4778780, ERR4778850	WGS	SPAdes	7*	Two contigs excluded due to short length. One might represent missing fragment of other paralog
+Sphagnum squarrosum	Sphagnales	ERR4778611	WGS	SPAdes	6*	Maybe three more paralogs, but contigs contained misassemblies and could not be translated. Maybe pseudogenes. Two possible contigs were short and excluded
+Sphagnum subnitens	Sphagnales	ERR4778894, ERR4780988, ERR4781005	WGS	SPAdes	7	
+Sphagnum subsecundum	Sphagnales	ERR477405	RNAseq	rnaSPAdes	10	Identical contigs assembled for the same paralog. One very short contig. Removed from analysis
+Sphagnum tenellum	Sphagnales	ERR4778604, ERR4778834, ERR4785892	WGS	Geneious	6	Maybe other paralogs present but contigs contained misassemblies or represented pseudogenes
 Takakia lepidozioides	Takakiales	SRR17573916, SRR17573917, SRR17573918, SRR17573919, SRR17573920	WGS	Geneious	2	
 Tetraphis pellucida	Tetraphidales	ERR2040974	RNAseq	rnaSPAdes	5	
-Thelia asprella	Hypnales	SRR2518088	RNAseq	rnaSPAdes	7	
-Thuidium delicatulum	Hypnales	SRR2499574	RNAseq	rnaSPAdes	4	
-Timmia austriaca	Timmiales	ERR2040975	RNAseq	rnaSPAdes	4	
-Tomentypnum nitens	Hypnales	SRR26398947	WGS	Geneious	0	Not enough data
-Vinealobryum vineale	Pottiales	SRR24966267	RNAseq	rnaSPAdes	13	
-Vittia pachyloma	Hypnales	SRR21785611	WGS	Geneious	0	Not enough data
+Timmia austriaca	Timmiales	ERR2040975	RNAseq	rnaSPAdes	5*	One contig excluded due to short length
